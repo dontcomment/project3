@@ -1,0 +1,54 @@
+@media (max-width: 992px) {
+    .container {
+        padding: 0px 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0px 20px;
+    }
+
+    .promo {
+        background: url(/src/img/bg1.png) left (center / cover) no-repeat;
+        &__wrapper {
+            align-items: center;
+        }
+    }
+
+    .header {
+        &__logo {
+            width: 212px;
+        }
+    }
+    
+    .benefits {
+        &__items {
+            flex-direction: column;
+            align-items: center;
+            &__item {
+                width: 380px;
+                padding-top: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        &__oficial {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 426px) {
+    .promo {
+        &__header {
+            text-align: center;
+        }
+        &__subheader {
+            text-align: center;
+        }
+    }
+}
